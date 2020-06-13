@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:text="Телефон"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editText" />
+        app:layout_constraintTop_toTopOf="@+id/phone_edit_text" />
 
     <TextView
         android:id="@+id/firstname"
@@ -22,9 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="Имя"
-        app:layout_constraintBottom_toBottomOf="@+id/editText2"
+        app:layout_constraintBottom_toBottomOf="@+id/firstname_edit_text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editText2" />
+        app:layout_constraintTop_toTopOf="@+id/firstname_edit_text" />
 
     <TextView
         android:id="@+id/surname"
@@ -32,12 +32,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="Фамилия"
-        app:layout_constraintBottom_toBottomOf="@+id/editText3"
+        app:layout_constraintBottom_toBottomOf="@+id/surname_edit_text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editText3" />
+        app:layout_constraintTop_toTopOf="@+id/surname_edit_text" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/phone_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -49,30 +49,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/firstname_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="80dp"
         android:ems="10"
-        android:inputType="phone"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toEndOf="@+id/phone"
-        app:layout_constraintTop_toTopOf="@+id/editText" />
+        app:layout_constraintTop_toTopOf="@+id/phone_edit_text" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/surname_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
         android:ems="10"
-        android:inputType="phone"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toEndOf="@+id/phone"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/firstname_edit_text" />
 
     <Button
         android:id="@+id/registration"
